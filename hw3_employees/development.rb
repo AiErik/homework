@@ -1,13 +1,5 @@
 require './department.rb'
 
-def satisfactory(boolean)
-  if boolean == true
-    "Satisfactorily"
-  else
-    "Unsatisfactorily"
-  end
-end
-
 operations = Department.new(name: 'Operations')
 
 robbie = Employee.new(name: 'Robbie Allen',email: 'robbie@automatedinsights.com', phone: '919-919-9191',salary: 1000000)
